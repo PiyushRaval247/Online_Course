@@ -1,7 +1,7 @@
 import { useState,useEffect } from "react";
 import { navLinksData } from "../constants/navbar.js";
 import { Link,NavLink } from "react-router-dom";
-import logo from "../assets/logo.png";
+import logo from "../assets/Logo.png";
 import hamburger from "../assets/hamburger.png";
 
 const Navbar = () => {
