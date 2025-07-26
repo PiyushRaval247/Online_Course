@@ -1,5 +1,5 @@
 import React from 'react'
-import bannericon from "../../assets/iconContainer.png"
+import bannericon from "../../assets/bannericon.png"
 import { NavLink } from 'react-router-dom'
 
 const Banner = () => {
