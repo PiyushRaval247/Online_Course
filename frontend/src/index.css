@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply rounded-[6px] font-medium text-sm transition;
+  }
+
+  .btn-primary {
+    @apply px-[20px] py-[10px] md:px-[24px] md:py-[12px] bg-[#FF9500] text-white hover:bg-[#F7F7F8] border border-transparent hover:text-[#FF9500] hover:border-[#FF9500];
+  }
+
+  .btn-secondary {
+    @apply  px-[20px] py-[10px] md:px-[24px] md:py-[12px] bg-white text-[#262626] hover:text-[#FF9500];
+  }
+
+  .btn-ternary {
+    @apply px-[18px] py-[12px] md:px-[20px] md:py-[14px] bg-white text-gray-800 hover:bg-gray-300 border border-[#F1F1F3];
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bevietnam text-[#262626];
+  }
+
+  h1 {
+    @apply text-[28px] md:text-[34px] lg:text-[36px] leading-[150%] font-semibold;
+  }
+  h2 {
+    @apply text-[24px] md:text-[26px] lg:text-[28px] leading-[150%] font-medium;
+  }
+  h3 {
+    @apply text-[18px] md:text-[18px] lg:text-[20px] leading-[150%] font-semibold;
+  }
+  h4 {
+    @apply text-[18px] leading-[169%] font-medium;
+  }
+  p {
+    @apply font-bevietnam text-[#4C4C4D] text-[14px] sm:text-[16px] leading-[150%] font-normal;
+  }
+   a {
+    @apply font-bevietnam  leading-[150%] text-[14px];
+  }
+}
+body{
+  @apply bg-[#F7F7F8];
+}
+
+
+
+
+
+
+
